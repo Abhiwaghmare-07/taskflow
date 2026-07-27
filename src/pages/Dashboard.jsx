@@ -1,8 +1,10 @@
+import WelcomeBanner from "../components/dashboard/WelcomeBanner";
+
 function Dashboard() {
   return (
-    <h1 className="text-3xl font-bold">
-      Dashboard
-    </h1>
+    <div className="space-y-6">
+      <WelcomeBanner />
+    </div>
   );
 }
 
